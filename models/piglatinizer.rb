@@ -5,5 +5,6 @@ class PigLatinizer
   end
 
   def translate
+    words_array=@text.split(" ")
   end
 end
