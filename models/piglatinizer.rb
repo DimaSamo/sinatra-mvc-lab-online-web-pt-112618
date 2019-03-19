@@ -3,4 +3,7 @@ class PigLatinizer
   def initialize(text)
     @text=text
   end
+
+  def translate
+  end
 end
