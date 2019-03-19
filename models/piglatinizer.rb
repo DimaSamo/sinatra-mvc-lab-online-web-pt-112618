@@ -3,7 +3,7 @@ class PigLatinizer
   def initialize
   end
 
-  def piglatinize
+  def piglatinize(words_array)
     words_array=@text.split(" ")
     words_array.map do |word|
       letters_array=word.split("")
