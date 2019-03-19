@@ -4,7 +4,7 @@ class PigLatinizer
   end
 
   def piglatinize(words_array)
-    words_array=@text.split(" ")
+  #  words_array=@text.split(" ")
     words_array.map do |word|
       letters_array=word.split("")
       letters_array.push(letters_array.delete_at(0))
