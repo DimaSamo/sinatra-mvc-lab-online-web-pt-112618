@@ -10,6 +10,6 @@ class PigLatinizer
       letters_array=word.split("")
       letters_array.push(letters_array.delete_at(0))
       letters_array.join("")
-    end.join(" ")
+    end.join(" ")+"ay"
   end
 end
