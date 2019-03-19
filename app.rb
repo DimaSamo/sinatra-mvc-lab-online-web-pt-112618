@@ -5,4 +5,8 @@ class App < Sinatra::Base
     erb :user_input
   end
 
+  post '/translation' do
+    erb :translation
+  end
+
 end
